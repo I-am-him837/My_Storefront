@@ -63,3 +63,29 @@ button {
   #cart button:hover {
     background-color: #c0392b;
   }
+
+  #create-product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  #create-product-form input {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #create-product-form button {
+    background-color: #2196f3;
+  }
+
+  #create-product-form button:hover {
+    background-color: #1976d2;
+  }
